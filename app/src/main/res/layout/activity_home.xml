@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainhome"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lo que esta app espera es el poder hacer una practica por sonidos de animales en selecciones de cada animal para entrenar habilidades auditivas en niños con perdida auditiva entre los 0 y 5 años dando un uso a esta app a futuro"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="211dp"
+        android:layout_height="309dp"
+        android:layout_marginBottom="16dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/animales"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:text="Animal sounds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="159dp"
+        android:layout_height="288dp"
+        android:src="@drawable/conejo"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="173dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/leon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="190dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="88dp"
+        android:src="@drawable/rana"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Taller</string>
+    <string name="btn_uno">Login</string>
+    <string name="btn_dos">Register</string>
+</resources>
